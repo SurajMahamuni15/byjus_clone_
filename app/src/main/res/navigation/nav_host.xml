@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.byjusclone.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_numberEnterFragment"
+            app:destination="@id/numberEnterFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/numberEnterFragment"
+        android:name="com.example.byjusclone.fragment.NumberEnterFragment"
+        android:label="fragment_number_enter"
+        tools:layout="@layout/fragment_number_enter" >
+        <action
+            android:id="@+id/action_numberEnterFragment_to_verifyFragment"
+            app:destination="@id/verifyFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyFragment"
+        android:name="com.example.byjusclone.fragment.VerifyFragment"
+        android:label="fragment_verify"
+        tools:layout="@layout/fragment_verify" >
+        <action
+            android:id="@+id/action_verifyFragment_to_settingUpFragment"
+            app:destination="@id/settingUpFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingUpFragment"
+        android:name="com.example.byjusclone.fragment.SettingUpFragment"
+        android:label="fragment_setting_up"
+        tools:layout="@layout/fragment_setting_up" >
+        <action
+            android:id="@+id/action_settingUpFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.byjusclone.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_chapterFragment"
+            app:destination="@id/chapterFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_onlineClassFragment"
+            app:destination="@id/onlineClassFragment"
+            app:enterAnim="@anim/alpha_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/chapterFragment"
+        android:name="com.example.byjusclone.fragment.ChapterFragment"
+        android:label="fragment_chapter"
+        tools:layout="@layout/fragment_chapter" >
+        <action
+            android:id="@+id/action_chapterFragment_to_lessonsFragment"
+            app:destination="@id/lessonsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_chapterFragment_to_bookmarkVideosFragment"
+            app:destination="@id/bookmarkVideosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.example.byjusclone.fragment.LessonsFragment"
+        android:label="fragment_lessons"
+        tools:layout="@layout/fragment_lessons" >
+        <action
+            android:id="@+id/action_lessonsFragment_to_videoFragment"
+            app:destination="@id/videoFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.byjusclone.fragment.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/onlineClassFragment"
+        android:name="com.example.byjusclone.fragment.OnlineClassFragment"
+        android:label="fragment_online_class"
+        tools:layout="@layout/fragment_online_class" >
+        <action
+            android:id="@+id/action_onlineClassFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/alpha_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkVideosFragment"
+        android:name="com.example.byjusclone.fragment.BookmarkVideosFragment"
+        android:label="fragment_bookmark_videos"
+        tools:layout="@layout/fragment_bookmark_videos" />
+</navigation>

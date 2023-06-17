@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BYJU\'S Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="privacy_policy_t_c"><![CDATA[Privacy Policy | T&C]]></string>
+    <string name="_91">+91</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="empty_">%s can\'t be empty</string>
+    <string name="mobile_number_length">Mobile number should be of 10 digits</string>
+    <string name="enter_valid_number">Please enter valid mobile number!</string>
+    <string name="verify">Verify</string>
+    <string name="_91_">+91-%s</string>
+    <string name="setting_up_your_n_app_experience_n_now">Setting up your\n app experience\n now!</string>
+    <string name="search_for_questions">Search for Questions</string>
+    <string name="byju_s_title">Byju\'s</string>
+    <string name="byjus_title">Byju\'s</string>
+    <string name="home_title">Home</string>
+    <string name="setting_title">Settings</string>
+    <string name="about_title">About</string>
+    <string name="subject_title">Subject title</string>
+    <string name="total_chapter_count">%s chapters</string>
+    <string name="concepts">Concepts</string>
+    <string name="chapter_name">Chapter name</string>
+    <string name="video_lessons">Video Lessons</string>
+    <string name="duration">%1$s : %2$s</string>
+    <string name="video_title">Video title</string>
+    <string name="online_classes">Online classes</string>
+    <string name="live_classes">Live Classes</string>
+    <string name="the_best_online_tuitions_for_live_doubt_solving_1_on_1_attention">The best online tuition\'s for\n LIVE doubt solving &amp; 1-on-1\n attention]</string>
+    <string name="the_best_online_tuitions_">The best online tuition\'s for LIVE doubt solving &amp; 1-on-1 attention]</string>
+    <string name="byju_s_classes">BYJU\'S Classes</string>
+    <string name="book_your_free_trial_class">Book your free trial class</string>
+    <string name="book">Book</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="all">All</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="physics">Physics</string>
+    <string name="history">History</string>
+    <string name="geography">Geography</string>
+    <string name="civics">Civics</string>
+    <string name="economics">Economics</string>
+</resources>

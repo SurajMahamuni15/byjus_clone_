@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BYJUSClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BYJUSClone" parent="Base.Theme.BYJUSClone" />
+
+
+    <style name="CardViewStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/dimen_16dp</item>
+        <item name="cornerSizeTopLeft">@dimen/dimen_16dp</item>
+    </style>
+
+    <style name="ImageCorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dimen_10dp</item>
+    </style>
+
+    <style name="AppBarTheme" parent="Widget.Material3.Toolbar">
+        <item name="navigationIconTint">@color/background_color</item>
+    </style>
+
+    <style name="cardViewBackground" parent="Widget.Material3.CardView.Filled">
+        <item name="background">@color/material_dynamic_neutral90</item>
+    </style>
+
+    <style name="titleStyle" parent="">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

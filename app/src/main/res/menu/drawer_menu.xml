@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/byjus_title">
+        <menu>
+            <item
+                android:id="@+id/home_item"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home_title"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/setting_item"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/setting_title"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/about_item"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_title"
+                android:checkable="true"/>
+        </menu>
+    </item>
+</menu>
